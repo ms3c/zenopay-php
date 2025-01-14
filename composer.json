@@ -1,0 +1,25 @@
+{
+    "name": "ms3c/zenopay",
+    "description": "Zeno Pay africa client Library",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Ms3c\\Zenopay\\": "src/"
+        },
+        "files": [
+            "src/Zeno.php", "src/helpers/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mohamed singano",
+            "email": "singano2009@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
