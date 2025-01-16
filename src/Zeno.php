@@ -14,6 +14,7 @@ class Zenopay {
     private $client;
    
     public function __construct($api_key = null, $secret_key = null, $account_id = null, $client = null){ 
+        
         $this->api_key = $api_key ?? $_ENV['ZENO_PAY_API_KEY'];
         $this->secret_key = $secret_key ?? $_ENV['ZENO_PAY_API_SECRET'];
         $this->account_id = $account_id ?? $_ENV['ZENO_PAY_ACCOUNT_ID'];
