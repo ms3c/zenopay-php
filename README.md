@@ -1,11 +1,11 @@
 
-# Zeno Library for PHP
+# Zeno Pay Library for PHP
 
 This is zeno pay php libray, allowing easy intergration of zeno pay in php projects.
 
 ## Installation
 
-Install zeno pay library using composer
+Install zeno pay library using composer.
 
 ```bash
   cd myphp-project
